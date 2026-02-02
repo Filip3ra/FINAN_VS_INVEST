@@ -1,0 +1,18 @@
+### Teste GET da rota /simulate
+GET http://localhost:3333/simulate
+
+###
+
+### Teste POST da rota /simulate
+POST http://localhost:3333/simulate
+Content-Type: application/json
+
+{
+  "valorImovel": 300000,
+  "entrada": 60000,
+  "taxaFinanciamentoAnual": 9.5,
+  "prazoAnos": 30,
+  "aluguelMensal": 1500,
+  "taxaRetornoInvestimentoAnual": 10,
+  "inflacaoAnual": 4
+}
